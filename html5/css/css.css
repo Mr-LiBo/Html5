@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{ font-family:微软雅黑 !important; font-size:0.95rem !important;}
+.bg{ background:#f5f5f5;}
+ul,ol,li{ list-style:none;}
+h4{ font-weight:normal !important; color:#a5a5a5 !important; margin:3% 1% 2% !important; padding:2% 0;}
+h4 span{ display:inline-block; width:0.8rem; height:0.8rem; background:#fff; border:1px solid #ccc;}
+h4 b{ font-size:0.8rem;  font-weight:normal; color:#444;}
+.paddingTB{ padding:1% 0;}
+h6{font-size:1rem !important;font-weight:normal !important; color:#a5a5a5 !important; margin:5% 1% 0 !important;}
+h6 span{ font-size:0.8rem;}
+
+.blockBox{ background:#fff;}
+.blockBox dt{ font-size:1.4rem; font-weight:normal; padding:4% 2%; color:#333; }
+.blockBox dd{ color:#666; font-size:1.1rem; border-top:1px solid #e5e5e5; padding:4% 0; margin:0 2%;background:url(../images/icon1.png) no-repeat right center;}
+.blockBox .dd{ text-align:center; background:none; }
+.blockBox .dd a{color:#00aaee;}
+.blockBox ul{ margin:0;}
+.blockBox ul li{ border-bottom:1px solid #e5e5e5; font-size:1.2rem;padding:4% 2%; background:url(../images/icon1.png) no-repeat 99% center;}
+.blockBox ul li a{ color:#333;}
+.blockBox ul li img{ width:2rem;height:2rem;}
+
+
+.blockBox1{ padding:1% 3% 4%;background:#fff; margin-bottom:5%; position:relative;}
+.blockBox1 h3{ font-size:1.3rem;font-weight:normal; margin:0;}
+.blockBox1 p{ color:#888;}
+.blockBox1 span{ color:#ff8208;}
+.blockBox1 .radio{ position:absolute; top:5%; right:1%; width:2rem; height:2rem;}
+.blockBox1 img{ width:4.5rem; height:4.5rem; display:inline-block; margin-right:1rem;}
+.blockBox1 b{font-size:1.2rem; margin-top:2rem; display:inline-block;}
+
+.blockBox2{ background:#fff; overflow:hidden; padding:2%; margin:4% 0;}
+.blockBox2 h5{ border-bottom:1px solid #e5e5e5; font-weight:normal; padding-bottom:3%;}
+.blockBox2 .line{border-top:1px solid #e5e5e5; margin-top:2%; padding:4% 0;}
+.blockBox2 h5 span{ float:right; color:#00aaee;}
+.blockBox2 h5 b{ color:#888;float:right;  font-weight:normal;}
+.blockBox2 dl{ overflow:hidden; margin:0; padding:2% 0; color:#666;}
+.blockBox2 dt{text-align:left; float:left; width:30%; font-weight:normal; }
+.blockBox2 .dl2{ width:33%; float:left;}
+.blockBox2 .dl2 dt{ width:100%; text-align:center; color:#888;}
+.blockBox2 .dl2 dd{width:100%; text-align:center; color:#333; margin-top:0.3rem;}
+.blockBox2 .dl dt{ width:48%;text-align:center;}
+.blockBox2 .dl dd{ width:48%;text-align:center;}
+.blockBox2 dd{text-align:right; float:right;width:66%;}
+.blockBox2 .dd{ color:#ff8208; font-size:1.2rem; }
+.blockBox2 dd span{ color:#b2b2b2; display:block; font-size:0.8rem;}
+
+.blockBox3{ overflow:hidden; padding:0 2% 2%;font-size:0.8rem; color:#888; line-height:1.6rem;}
+.blockBox3 b{ color:#333;}
+.blockBox4{ text-align:center; color:#888; line-height:1.6rem;padding: 2%;}
+.blockBox4 b{ display:block; font-size:1.2rem; color:#333; padding:2% 0; text-align:center;}
+.blockBox4 p{ text-align:left;}
+.blockBox4 img{ width:6rem;height:6rem; display:inline-block; margin:2% 0; }
+
+.formBox{ background:#fff; margin:4% 0; font-size:0.9rem;}
+.formBox dl{ overflow:hidden; padding:3% 0; margin:0 2%;border-bottom:1px solid #e5e5e5;}
+.formBox .dl{ border:none; overflow:hidden; color:#888;}
+.formBox .dl b{color:#333; font-weight:normal;}
+.formBox .dl dt{ width:auto;}
+.formBox .dl dd{ float:left;margin-top:0.3rem; width:auto; padding:0;}
+.formBox dt{ float:left; width:28%;  font-weight:normal; text-align:left; line-height:1rem; margin-top:0.3rem;}
+.formBox dt span{ color:#f00;}
+.formBox dd{ float:left; width:68%;}
+.formBox .dd1{ width:44%;}
+.formBox .dd2{ width:20%; text-align:right;}
+.formBox .dd3{ width:96%;}
+.formBox .dd3 select{ font-size:1.2rem;}
+.formBox dd input{ width:94%; border:none !important; margin-bottom:0 !important; height:1.2rem;box-shadow:none; outline:none !important;padding-left:0.6rem;font-family:微软雅黑 !important;}
+.formBox dd select{ border:none;width:100%; margin-bottom:0 !important;font-family:微软雅黑 !important;}
+.formBox dd textarea{box-shadow:none; outline:none !important; border:none;}
+.formBox .fujian{width:80%; margin:4% auto; border:1px solid #e5e5e5; border-radius:0.3rem; text-align:center; min-height:8rem;line-height:8rem; color:#888; cursor:pointer;}
+.formBox h4{ text-align:center; padding-bottom:2%; color:#333 !important;}
+.formBox ul{ overflow:hidden; margin:0; border-bottom:1px solid #e5e5e5; border-top:1px solid #e5e5e5;}
+.formBox ul li{ background:#fff; color:#333; float:left; text-align:center; width:18%;height:3.8rem; border-right:1px solid #e5e5e5;}
+.formBox ul .li{ width:24.6%;}
+.formBox ul .li1{ width:33%;}
+.formBox ul li span{ display:block; margin-top:0.5rem;}
+.formBox ul li b{display:block; font-weight:normal;}
+.formBox .grey{ background:#f0f0f0; color:#888;}
+.formBox .green{ background:#c5e1ec; color:#888;}
+.table th, .table td{ text-align:center !important;}
+
+.btnzdj{  height:2.6rem; width:96%; margin:0 auto 4%; border-radius:4px; border:none; display:block; font-weight:bold;}
+.btnLast{background:#ddd;color:#666;}
+.btnNext{ background:#00aaee; color:#fff;}
+
+.stepBox{ margin:5% 0;}
+.stepBox ul{ overflow:hidden; margin:0; background:url(../images/linebg.png) repeat-x 0 0.7em;}
+.stepBox li{ width:25%; float:left; text-align:center; color:#666; font-size:1rem;}
+.stepBox .li{ width:33%;}
+.stepBox li span{ display:block; width:0.8rem; height:0.8rem; background:#b7b7b7; border-radius:0.4rem; text-align:center; margin:0 auto; text-indent:-999rem; margin-top:0.3rem;margin-bottom:0.5rem;}
+.stepBox li span.hover{background:#00aaee}
+.stepBox li.hover{ color:#00aaee;}
+.stepBox li.hover span{width:1.22rem; height:1.22rem; background:#00aaee;border-radius:0.61rem;text-indent:0 ; color:#fff; line-height:1.22rem; font-weight:bold; text-align:center;margin-top:0}
+
+.tabBox{ background:#fbfbfb; font-size:1.1rem;}
+.tabBox ul{ margin:0; overflow:hidden; border-bottom:1px solid #e5e5e5; width:100%;}
+.tabBox ul .li{ width:33%;}
+.tabBox ul .li1{ margin-top:4%;padding:3% 0 0;}
+.tabBox ul li{ float:left; text-align:center; width:50%; padding:3% 0; color:#666;}
+.tabBox ul li.hover{ border-bottom:3px solid #00aaee; color:#00aaee;}
+
+.moreBox{ color:#a5a5a5; text-align:center; font-size:1rem; padding:0.5rem 0; margin-bottom:0.7rem}
+.moreBox ol{ margin:0; overflow:hidden;  margin:0.3rem 0 1rem ;}
+.moreBox ol li{ float:left; padding:0.3rem 0.7rem; color:#00aaee; margin:0 0.1rem;}
+.moreBox ol li.hover{ background:#f0f0f0;}
+.moreBox ol li:hover{ background:#f0f0f0;}
+
+.dateBox{ background:#fbfbfb; font-size:1.1rem; margin-bottom:4%;}
+.dateBox select{ width:80%;}
+.dateBox ul{ margin:0; overflow:hidden;}
+.dateBox li{ float:left; text-align:center; width:45%; padding:3% 0 0;}
+.dateBox .li{ width:10%; font-size:1rem; margin-top:2%;}
